@@ -1,0 +1,46 @@
+messenger-platform/
+├── backend/
+│   ├── src/
+│   │   ├── config/
+│   │   ├── database/
+│   │   ├── modules/
+│   │   ├── services/
+│   │   ├── middlewares/
+│   │   ├── utils/
+│   │   ├── workers/
+│   │   ├── queues/
+│   │   ├── socket/
+│   │   ├── routes/
+│   │   ├── validators/
+│   │   ├── repositories/
+│   │   └── index.js
+│   ├── tests/
+│   ├── logs/
+│   ├── package.json
+│   ├── ecosystem.config.js
+│   ├── .env.example
+│   └── .eslintrc.js
+├── frontend/
+│   ├── src/
+│   │   ├── components/
+│   │   ├── pages/
+│   │   ├── hooks/
+│   │   ├── services/
+│   │   ├── store/
+│   │   ├── themes/
+│   │   ├── locales/
+│   │   ├── utils/
+│   │   ├── App.jsx
+│   │   └── index.jsx
+│   ├── public/
+│   ├── package.json
+│   └── vite.config.js
+├── nginx/
+│   └── nginx.conf
+├── scripts/
+│   ├── setup.sh
+│   ├── deploy.sh
+│   └── backup.sh
+├── docs/
+├── .env.example
+└── README.md
